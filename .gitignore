@@ -1,0 +1,47 @@
+# Общее игнорирование
+bin/
+obj/
+*.log
+*.user
+*.lock
+*.ide
+*.suo
+*.cache
+*.pdb
+*.tmp
+*.bak
+*.swp
+*.DS_Store
+*.db
+*.db-shm
+*.db-wal
+*.directory
+
+# Visual Studio специфичные
+.vs/
+.vscode/
+*.sln.docstates
+
+# ASP.NET
+project.lock.json
+artifacts/
+
+# Resharper
+_ReSharper*/
+*.DotSettings.user
+
+# Rider
+.idea/
+.idea_modules/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# Пакеты
+*.nupkg
+*.nuget/
+packages/
